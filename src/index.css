@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* 🎨 PALETA AGRÍCOLA */
+:root {
+  --maize: #f5a71e;
+  --maize-dark: #df7b20;
+  --maize-light: #f5b111;
+  --agro-green: #429d10;
+  --white-pure: #ffffff;
+  --black-bacground: #000000;
+  /* Tonos tierra */
+  --brown-light: #a67c52;
+  --brown-dark: #5c3a21;
+  --beige: #f5f0e1;
+
+  /* Neutros */
+  --gray-light: #e5e5e5;
+  --gray-dark: #333333;
+  --white-smoke: #fafafa;
+
+  /* Cálidos complementarios */
+  --orange-light: #ffb74d;
+  --red-soft: #e57373;
+
+  /* Verdes complementarios */
+  --green-light: #7fc241;
+  --green-dark: #2e6b0f;
+}
