@@ -67,33 +67,39 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-4 flex-wrap animate__animated animate__fadeInUp animate__delay-2s">
-            <motion.button
+            <motion.a
+              href="#products"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
               className="
-                bg-[var(--maize)]
-                hover:bg-[var(--maize-dark)]
-                text-black
-                px-8 py-3 rounded-xl
-                font-semibold shadow-lg
-              "
+    inline-block
+    bg-[var(--maize)]
+    hover:bg-[var(--maize-dark)]
+    text-black
+    px-8 py-3 rounded-xl
+    font-semibold shadow-lg
+    cursor-pointer
+  "
             >
               Ver productos
-            </motion.button>
+            </motion.a>
 
-            <motion.button
+            <motion.a
+              href="#contact"
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
               className="
-                bg-[var(--agro-green)]
-                hover:bg-[var(--agro-green)]/90
-                text-white
-                px-8 py-3 rounded-xl
-                font-semibold shadow-lg
-              "
+    inline-block
+    bg-[var(--agro-green)]
+    hover:bg-[var(--agro-green)]/90
+    text-white
+    px-8 py-3 rounded-xl
+    font-semibold shadow-lg
+    cursor-pointer
+  "
             >
               Contáctanos
-            </motion.button>
+            </motion.a>
           </div>
         </div>
 
